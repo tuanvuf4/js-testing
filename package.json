@@ -1,0 +1,17 @@
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test--watch": "jest --watch-All",
+    "test_algorithms": "jest --verbose --watch ./algorithms",
+    "test_scripts": "jest --verbose ./scripts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
